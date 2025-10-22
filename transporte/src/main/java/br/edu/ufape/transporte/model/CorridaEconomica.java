@@ -12,8 +12,7 @@ public class CorridaEconomica extends Corrida {
     // Métodos
     @Override
     public double calcularTarifa() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularTarifa'");
+        return (this.getRota().getDistanciaTotal() * 1.2);
     }
     
 }

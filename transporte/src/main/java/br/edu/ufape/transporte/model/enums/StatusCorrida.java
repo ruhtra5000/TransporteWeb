@@ -1,4 +1,4 @@
-package br.edu.ufape.transporte.model;
+package br.edu.ufape.transporte.model.enums;
 
 public enum StatusCorrida {
     SOLICITADA,

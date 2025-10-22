@@ -16,4 +16,7 @@ public abstract class Pagamento {
     @GeneratedValue
     private long id;
     private double valor;
+
+    // Métodos
+    public abstract boolean processarPagamento();
 }

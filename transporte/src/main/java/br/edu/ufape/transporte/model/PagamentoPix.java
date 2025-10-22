@@ -10,4 +10,11 @@ import lombok.EqualsAndHashCode;
 public class PagamentoPix extends Pagamento {
     // Atributos
     private String chavePix;
+
+    // Métodos
+    @Override
+    public boolean processarPagamento() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'processarPagamento'");
+    }
 }
